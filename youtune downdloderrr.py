@@ -30,8 +30,8 @@ def ytube():
 
 asr=Tk()
 asr.title("Youtube DOWNLODER 2.0")
-asr.geometry("600x400")
-filebg=PhotoImage(file='pikrepo.png')
+asr.geometry("1300x700+00+00")
+filebg=PhotoImage(file='C:\\Users\\neha\\Links\\tubedownloder\\pikrepo.png')
 l_fr_bg=Label(asr,image=filebg)
 l_fr_bg.place(x=0,y=0)
 label=Label(text="Hey Buddy, Welcome,, Insert your link below",fg="purple",font="200x300",bg='steel blue').pack()
@@ -40,4 +40,5 @@ button1=Button(text="download",font="150x160",bg="green",fg="yellow",command=ytu
 hd=StringVar()
 valid=Entry(textvariable=hd,bd=4,bg='powder blue').pack()
 
+asr.mainloop()
 
